@@ -38,7 +38,7 @@ filename<-"y_test.txt"
 test_labels<-read.csv(paste(projectpath,"/","test/",filename,sep=""),sep="",header=FALSE)
 names(test_labels)<-"label"
 
-#import training subject
+#import test subject
 filename<-"subject_test.txt"
 test_subject<-read.csv(paste(projectpath,"/","test/",filename,sep=""),sep="",header=FALSE)
 names(test_subject)<-"SubjectID"
